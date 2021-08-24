@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+        .new-font {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+            letter-spacing: auto;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        .bold-text {
+            font-weight: bold;
+        }
+
+        .green-text {
+            color: darkgreen;
+        }
+
+        .light-gray{
+            background:#c9c6bf;
+        }
+
+        .dark-gray {
+            background: #b89e85;
+        }
+
+        .dark-blue {
+            background: darkslateblue;
+        }
+
+        .white-text {
+            color: white;
+            
+        }
+
+        .blue-text {
+            color: darkblue;
+        }
+
+        .gray-text {
+            color: #9a8676;
+        }
+
+        .nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            margin-bottom: 100px;
+            font-size: 20px;            
+        }
+
+        .exp {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .exp li {
+            padding: 0;
+            margin: 10px 0;
+            list-style: none;
+        }
+
+        .nav li {
+            display: inline-block;
+            margin: auto;
+            padding: auto;
+            cursor: pointer;
+        }
+
+        .nav li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .block1 {
+            width: 1300px;
+            margin: auto;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .main-image {
+            height: 500px;
+        }
+
+        .name-tag {
+            font-size: 40px;          
+        }
+
+        .paragraph{
+            margin: 12px 0;
+            line-height: 30px;
+        }
+
+        .wave-background {
+            background-image: url("./wave-background.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .circle-image {
+            border-radius: 50%;
+            height: 250px;
+            width: 250px;
+            display: inline-flex;
+        }
+
+        #contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        #contact-form input, #contact-form textarea {
+            padding: 20px 0;
+            margin-bottom: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            width: 1300px;
+            border: 3px solid black
+        }
+
+        textarea {
+            font-family: 'Times New Roman', Times, serif;
+            height: 100px;
+        }
+
+        input#submit {
+            width: 300px;
+            cursor: pointer;
+            background-color: #c9c6bf;
+            color: black;
+            font-size: 24px;
+            width: 300px;
+        }
+
+        #go-top {
+            text-decoration: none;
+            display: inline-block;
+            height: 70px;
+            width: 75px;
+            background-color: #c9c6bf;
+            color: black;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #certificates li a {
+            text-decoration: none;
+            color: black;
+        }
+
+    </style>
+</head>
+
+<body class="new-font">
+    <div class="dark-gray">
+        <div>        
+            <div class="light-gray">
+                <div class="block1" id="top">
+                    <ul class="nav">                    
+                        <li><a href="#skills">Skills & Expertise</a></li>                        
+                        <li><a href="#experience"> Professional experience</a></li>                                  
+                        <li><a href="#education"> Education</a></li>
+                        <li><a href="#trainings">Trainings</a></li>                            
+                        <li><a href="#certificates">Certificates</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                        <li><a href="#personality">Personality</a></li>
+                        <li><a href="#contact">Contact</a></li>              
+                    </ul>
+                
+                    <img class="main-image" src="./Foto.jpg" alt="photo">
+
+                    <span class="bold-text name-tag" >                    
+                        <li style="list-style-type: none;"> ELENA ZATYKINA</li>
+                        <li style="font-size: 30px; list-style-type: none;">QA ENGINEER/SOFTWARE TESTER </li>                      
+                    </span>
+                </div>                        
+            </div>                            
+        </div>
+      
+
+        <div class="block1" id="skills">
+            <h2> Skills & Expertise </h2>
+            <li>Deep theoretical and practical knowledge in testing, software life cycle models, test tools, test  design, REST API testing</li>
+            <li>Automated testing with Selenium and Python (PageObject, SCC / HTML, unittest, PyTest). Python 3.0. MS SQL Server. Bug tracking with Atlassian Jira. GIT. POSTMAN / SOAPUI. Automated testing of REST API with Postman. MS Navision</li>
+            <li>Understanding of web technologies (client-server architecture, HTTP / TCP)</li>
+            
+            
+        </div>
+    
+    
+    <div class="block1" id="experience">
+        <h2> Professional experience </h2>
+  
+            <span class="bold-text">Sept. 2018–Feb. 2020  Engineer krauth-technology GmbH, Eberbach</span>  <br>
+            <br>
+                <li>Independent work in design development of new mechanical solutions for ticket machines</li>
+                <li>Development of technical documentation according to specifications and industrial norms</li>                
+                <li>Back-up and tracking changes of technical documents with version control- and ERP-System </li>
+                <li>Carrying out of technical negotiations and processes coordination with internal and external customers</li>                
+                <li>Design reviews within development and production teams</li>                
+                <li>Technical testing of completed prototypes and serial products (software and hardware)</li>
+                <br>
+                <br>
+
+            <span class="bold-text">June 2015–March 2018  Engineer BUSALT & Co GmbH, Viernheim </span> <br>
+            <br>
+                <li>Developing of CAD-projects according to customers requests and requirements</li>
+                <li>Programming of CNC- machines</li>                                
+                <li>Negotiating with customers and suppliers</li>                
+                <li>Technical support of drafters and designers</li>
+                <br>
+                <br>
+                 
+            <span class="bold-text">Sept. 2006–Dec. 2013  Engineer AGRO-3 GmbH, Moscow </span> <br>
+            <br>
+                <li>Project planning of machines and systems in the field of filling, conveying and storage technology</li>            
+                <li>Analysis of customer requirements and technical pre-evaluation of projects. Reduction of manufacturing costs and development time</li>
+                <br>
+                <br> 
+
+    </div>
+
+
+    <div class="block1 no-padding-top" id="education">
+        <h2>Education</h2>                   
+            <span class="bold-text">Sept. 2000-June 2006 <br> Dipl. engineer</span> <br>
+                Moscow State Technical University named after Bauman (BMSTU) Moscow, Russia 
+                Qualification certificate of conformity by Central Office for Foreign Education in Bonn (ZAB): <span class="bold-text">Master’s Degree</span>             
+    </div>
+
+
+
+    <div class="block1" id="trainings">
+        <h2>Trainings</h2>            
+            <span class="bold-text">March 2020 - Aug.2021</span><br>
+            <li> <span class="bold-text">alfatraining Education Centre  GmbH</span></li>
+            Software testing, MS SQL Server, Python 3.0, Business English, Business German  (certificates)
+            <li> <span class="bold-text">online courses: udemy.com, stepik.org, software-testing.ru</span></li>    
+            Automation testing with Selenium & Python (certificates), Test-design practical course, Work with JIRA, Work with GIT, Web-technologies, API-testing with SoapUI and Postman
+        </ul>
+    </div>
+
+    <div class="block1" id="certificates">
+        <h2>Certificates</h2>            
+            <li><a href="https://el-zat.github.io/my-website/E.Zatykina-ISTQB 21-CTFL-185779-01.pdf"><span class="bold-text">ISTQB Certified Tester </span>Foundation Level certificate</a> </li>
+            <li><a href="https://el-zat.github.io/my-website/E.Zatykina-Zertifikat_Softwaretester.pdf">Software testing, alfatraining certificate</a></li>
+            <li><a href="https://el-zat.github.io/my-website/E.Zatykina-Zertifikat SQL.pdf">MS SQL Server, alfatraining certificate</a></li>
+            <li><a href="https://el-zat.github.io/my-website/E.Zatykina-Zertifikat Python.pdf">Python 3.0, alfatraining certificate</a></li>
+            <li><a href="https://el-zat.github.io/my-website/E.Zatykina-Zertifikat-TOEIC.pdf">Business English TOEIC certificate – B2</a></li>
+            <li><a href="https://el-zat.github.io/my-website/E.Zatykina-Zertifikat%20WiDaF.PDF">Business German WiDaf certificate  - C2</a></li>
+    </div>
+
+    <div class="block1" id="languages">
+        <h2>Languages</h2>            
+            <li>Russian –  native</li>            
+            <li>German – advanced</li>            
+            <li>English – upper intermediate</li>
+    </div>
+
+    <div class="block1" id="personality">
+        <h2>Personality</h2>            
+            <p> Despite of continuous professional experience on high qualified position in the metal industry, <br> 
+                I'm absolutely confident in successfully changing of career focus because of genuine passions in technology and software testing. <br> 
+                Besides of my self-motivation and goal-oriented commitment, I'm a life-long learner and dank to my technical mindset I acquire new knowledge quickly.</p>
+
+    <div class="block1 no-padding-top" id="contact">
+        <h2>Contact</h2>
+            <form action="/" method="GET" id="contact-form">
+                <input type="text" name="FIO" placeholder="FIO">
+                <input type="email" name="email" placeholder="email">
+                <textarea name="message"  placeholder="input a message"></textarea>
+                <input type="submit" name="submit" id="submit" value="Send">
+            </form>
+    </div>
+
+    <a id="go-top" href="#top">⇑</a>                 
+</div>
+</body>
+</html>
