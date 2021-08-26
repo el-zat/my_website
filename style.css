@@ -1,0 +1,166 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.new-font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    letter-spacing: auto;
+}
+
+h2 {
+    color: black;    
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.green-text {
+    color: darkgreen;
+}
+
+.light-gray{
+    background:#c9c6bf;
+}
+
+.dark-gray {
+    background: #b89e85;
+}
+
+.dark-blue {
+    background: darkslateblue;
+}
+
+.white-text {
+    color: white;
+    
+}
+
+.blue-text {
+    color: darkblue;
+}
+
+.gray-text {
+    color: #9a8676;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-bottom: 100px;
+    font-size: 20px;            
+}
+
+.exp {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.exp li {
+    padding: 0;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin: auto;
+    padding: auto;
+    cursor: pointer;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.block1 {
+    width: 1300px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.main-image {
+    height: 470px;
+}
+
+
+.name-tag {
+    font-size: 40px;
+    line-height: 40px;
+}
+    
+
+.paragraph{
+    margin: 12px 0;
+    line-height: 30px;
+}
+
+.wave-background {
+    background-image: url("./wave-background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.circle-image {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    display: inline-flex;
+}
+
+#skills, #experience, #education, #trainings, 
+#certificates, #languages, #personality, #contact {
+    line-height: 30px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 20px 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 1300px;
+    border: 3px solid black
+}
+
+textarea {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+}
+
+input#submit {
+    width: 300px;
+    cursor: pointer;
+    background-color: #c9c6bf;
+    color: black;
+    font-size: 24px;
+    width: 300px;
+}
+
+#go-top {
+    text-decoration: none;
+    display: inline-block;
+    height: 70px;
+    width: 75px;
+    background-color: #c9c6bf;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#certificates li a {
+    text-decoration: none;
+    color: black;
+}
